@@ -30,6 +30,12 @@ public class ApplicationController {
         return Results.html();
 
     }
+
+    public Result login(){
+
+        return Results.html();
+    }
+
     
     public Result helloWorldJson() {
         
