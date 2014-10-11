@@ -31,12 +31,10 @@ public class ApplicationController {
 
     }
 
-    @Inject
-    GreetingServiceInt greeter;
 
-    public Result login( Context context){
+    public Result login( ){
 
-        return Results.html().render("greeting",greeter.hello());
+        return Results.html();
     }
 
     
